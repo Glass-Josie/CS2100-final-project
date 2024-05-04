@@ -10,4 +10,4 @@ turns, the players guess a location on their opponent’s grid, in an attempt to
 When a ship has been hit in all locations it spans, the ship is sunk. The first player to sink
 their opponent’s entire fleet, wins the game."
 For my implementation, the user will play against the computer. The computer will make
-random (but not duplicate) guesses. The CellStatus, Ship, and Destroyer class were given by the professor, I wrote all other classes. The program reads text files to place the ships and then plays like normal, asking user for input each round until won or loss. 
+random (but not duplicate) guesses. The CellStatus, Ship, and Destroyer class were given by the professor, I wrote all other classes. The program reads text files to place the ships and then plays like normal, asking user for input each round until won or loss. The user's and the computer's hits are displayed as an "H" on a printed board which turns into the first initial of the ship once it is sank to reveal where it is. The program also utilizing input validation and ANSI codes to color some text for clarity and aesthetic purposes. 
